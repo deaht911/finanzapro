@@ -19,7 +19,7 @@ const app = express();
 const origins = [
   'http://localhost:3000',
   'http://localhost:5173',
-  'https://finanzapro-frontend.vercel.app', // se reemplaza por el dominio real de Vercel
+  'https://finanzapro-eight.vercel.app', // dominio de producción en Vercel
   ...(process.env.CORS_ORIGIN || '').split(','),
 ]
   .map((o) => o.trim())
